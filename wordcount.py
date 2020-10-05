@@ -1,8 +1,6 @@
 
-poem = open('twain.txt')   
+poem = open('test.txt')   
 word_counts = {}
-    
-    
     
 for line in poem:
     words = line.rstrip().split(" ")
